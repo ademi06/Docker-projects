@@ -17,6 +17,7 @@ function MovieForm({ onAddMovie }) {
 
   return (
     <form onSubmit={handleSubmit}>
+      <div> <h2> Welcome to your movie list</h2></div>
       <Input
         aria-label="New Movie"
         onChange={handleChange}
